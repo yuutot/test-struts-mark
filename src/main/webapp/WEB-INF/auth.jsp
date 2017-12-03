@@ -5,16 +5,27 @@
 <html>
 <head>
     <title>Auth</title>
-    <s:head />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <s:head/>
 </head>
 <body>
-Auth
-<c:property value="errorMessage"/>
-<s:form action="auth-execute" method="POST" namespace="/">
-    <s:textfield name="login"/>
-    <s:password name="password"/>
-    <s:submit/>
-</s:form>
 
+<div class="container">
+    <div class="row">
+        <div class="form-wrapper">
+            <s:form cssClass="form-auth" action="auth-execute" method="POST" namespace="/">
+                <div class="form-group">
+                    <s:textfield name="login"/>
+                </div>
+                <div class="form-group">
+                    <s:password name="password"/>
+                </div>
+                <s:submit cssClass="btn btn-primary"/>
+            </s:form>
+        </div>
+
+    </div>
+</div>
 </body>
 </html>
