@@ -1,0 +1,79 @@
+.form-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.form-auth{
+    width: 50%;
+}
+.form-order{
+    width: 400px;
+    margin-top: 40px;
+
+}
+.form-auth table{
+    width: 100%;
+}
+.form-auth table tr{
+    padding-bottom: 40px;
+}
+.tdLabel{
+    padding-right: 20px;
+}
+.form-order .col-form-label{
+    width: 150px;
+}
+.select-c{
+    display: flex;
+    justify-content: space-between;
+}
+.list-group{
+    margin-top: 40px;
+}
+.form-stats form{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.form-stats form label {
+    margin: 0 20px
+
+}
+.form-stats form .btn{
+    margin-left: 20px;
+}
+#diagram-first, #diagram-second {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 40px;
+}
+#table-data{
+    margin-top: 40px;
+}
+
+.tdInput span{
+    display: block;
+    position: relative;
+}
+.tdInput input{
+    width: 100%!important;
+}
+.tdInput img{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 5px;
+
+}
+.custom{
+    width: 100%;
+}
+.form-order tr,.form-order td{
+    padding-bottom: 30px;
+}
