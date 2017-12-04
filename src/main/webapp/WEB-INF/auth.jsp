@@ -15,12 +15,8 @@
     <div class="row">
         <div class="form-wrapper">
             <s:form cssClass="form-auth" action="auth-execute" method="POST" namespace="/">
-                <div class="form-group">
-                    <s:textfield name="login"/>
-                </div>
-                <div class="form-group">
-                    <s:password name="password"/>
-                </div>
+                <s:textfield label="login" cssClass="form-control" id="login" name="login"/>
+                <s:password label="Password" cssClass="form-control" id="password" name="password"/>
                 <s:submit cssClass="btn btn-primary"/>
             </s:form>
         </div>

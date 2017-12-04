@@ -22,18 +22,17 @@
         <div class="offset-1 col-sm-6">
             <s:form cssClass="form-order" action="order-execute">
             <div class="form-group select-c">
-                <label class="col-form-label" for="empl">Select employer</label>
-                <s:select id="empl" cssClass="col-form-label" list="employers" name="selectedEmployer"
+
+                <s:select id="empl" label="Select employer" cssClass="custom-select custom" list="employers" name="selectedEmployer"
                           listValue="name" listKey="id" headerKey="-1" headerValue="Выберите работника"/>
             </div>
             <div class="form-group select-c">
-                <label class="col-form-label" for="reg">Select region</label>
-                <s:select id="reg" cssClass="custom-select" list="regions" name="selectedRegion" listValue="name"
+                <s:select id="reg" label="Select region" cssClass="custom-select custom" list="regions" name="selectedRegion" listValue="name"
                           listKey="id" headerKey="-1" headerValue="Выберите регион"/>
             </div>
             <div class="form-group">
-                <label class="col-form-label" for="price_id">Price</label>
-                <s:textfield id="price_id" cssClass="form-control" name="total"/>
+
+                <s:textfield label="Price" id="price_id" cssClass="form-control" name="total"/>
             </div>
             <div class="form-group">
                 <div class='input-group date'>
